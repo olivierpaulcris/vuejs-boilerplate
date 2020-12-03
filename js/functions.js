@@ -20,7 +20,9 @@ const app = new Vue({
                }
           ],
           newFruit: "",
-          total: 0
+          total: 0,
+          background: "bg-dark",
+          color: false
      },
      methods: {
           addFruit() {
