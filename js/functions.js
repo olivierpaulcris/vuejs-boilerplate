@@ -18,6 +18,15 @@ const app = new Vue({
                     name: 'Bannana',
                     quantity: 8
                }
-          ]
+          ],
+          newFruit: ""
+     },
+     methods: {
+          addFruit() {
+               this.fruits.push({
+                    name: this.newFruit,
+                    quantity: 0
+               });
+          }
      }
 });

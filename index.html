@@ -11,6 +11,10 @@
      <div id="app">
           <h1>{{title}}</h1>
 
+          <input type="text" v-model="newFruit">
+          <button @click="addFruit">Add</button>
+          <!-- <button v-on:click="addFruit">Add</button> -->
+
           <ul>
                <li v-for="fruit of fruits">
                     {{fruit.name}} - {{fruit.quantity}}
