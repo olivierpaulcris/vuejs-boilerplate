@@ -19,7 +19,8 @@ const app = new Vue({
                     quantity: 8
                }
           ],
-          newFruit: ""
+          newFruit: "",
+          total: 0
      },
      methods: {
           addFruit() {
@@ -27,6 +28,18 @@ const app = new Vue({
                     name: this.newFruit,
                     quantity: 0
                });
+               this.newFruit = "";
+          }
+     },
+     computed: {
+          countFruits() {
+               this.total = 0;
+
+               for (fruit of this.fruits) {
+                    this.total = this.total + fruit.quantity;
+               }
+
+               return this.total;
           }
      }
 });
