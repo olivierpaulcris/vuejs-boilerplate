@@ -1,2 +1,2 @@
 # vuejs-xample
-Xample using Vue.js
+Vue.js boilerplate.
