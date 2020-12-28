@@ -1,2 +1,2 @@
-# vuejs-xample
+# vuejs-boilerplate
 Vue.js boilerplate.
