@@ -15,7 +15,7 @@ Vue.js boilerplate, developed in 2020.
 ## Instalation
 
 ```
-git clone https://github.com/olivierpaulcris/paulframeworkcss.git
+git clone https://github.com/olivierpaulcris/vuejs-boilerplate.git
 git checkout master
 ```
 
