@@ -9,13 +9,15 @@ Vue.js boilerplate, developed in 2020.
 ## Index
 
 - [Instalation](#instalation)
-- [Usage](#usage)
 - [Live Preview](#live-preview)
 - [License](#license)
 
 ## Instalation
 
-## Usage
+```
+git clone https://github.com/olivierpaulcris/vuejs-boilerplate.git
+git checkout master
+```
 
 ## Live Preview
 
